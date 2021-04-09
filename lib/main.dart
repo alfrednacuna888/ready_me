@@ -55,7 +55,8 @@ class Login extends StatelessWidget {
                 decoration: InputDecoration(
                   fillColor: Colors.white,
                   filled: true,
-                  hintText: "Enter email"
+                  hintText: "Enter email",
+                  prefixIcon: Icon(Icons.email)
                 ),
               ),
             ),
@@ -71,7 +72,8 @@ class Login extends StatelessWidget {
                 decoration: InputDecoration(
                   fillColor: Colors.white,
                   filled: true,
-                  hintText: "Enter password"
+                  hintText: "Enter password",
+                  prefixIcon: Icon(Icons.lock)
                 ),
               ),
             ),
@@ -142,7 +144,8 @@ class Signup extends StatelessWidget {
                 decoration: InputDecoration(
                   fillColor: Colors.white,
                   filled: true,
-                  hintText: "Enter first name"
+                  hintText: "Enter first name",
+                  prefixIcon: Icon(Icons.person)
                 ),
               ),
             ),
@@ -157,7 +160,8 @@ class Signup extends StatelessWidget {
                 decoration: InputDecoration(
                   fillColor: Colors.white,
                   filled: true,
-                  hintText: "Enter last name"
+                  hintText: "Enter last name",
+                  prefixIcon: Icon(Icons.person)
                 ),
               ),
             ),
@@ -172,7 +176,8 @@ class Signup extends StatelessWidget {
                 decoration: InputDecoration(
                   fillColor: Colors.white,
                   filled: true,
-                  hintText: "Enter email"
+                  hintText: "Enter email",
+                  prefixIcon: Icon(Icons.email)
                 ),
               ),
             ),
@@ -188,7 +193,8 @@ class Signup extends StatelessWidget {
                 decoration: InputDecoration(
                   fillColor: Colors.white,
                   filled: true,
-                  hintText: "Enter password"
+                  hintText: "Enter password",
+                  prefixIcon: Icon(Icons.lock)
                 ),
               ),
             ),
